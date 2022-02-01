@@ -9,8 +9,9 @@ blockquote p::after {
     content: '\201D';
 }
 .randomInsult blockquote p{
-    font-size: 5rem;
-    padding-bottom: 3rem;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+    line-height: 160%;
 }
 .randomInsult figure figcaption{
     font-size: 2rem;
@@ -24,10 +25,31 @@ blockquote p::after {
     padding: 2rem 2rem;
 }
 .allInsults blockquote p{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 160%;
     padding-bottom: 1rem;
     font-style: italic;
 }
 .allInsults figure figcaption{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+@media (min-width:520px){
+    .randomInsult blockquote p{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    .allInsults figure figcaption{
+        font-size: 1.5rem;
+    }
+    .allInsults blockquote p{
+        font-size: 2rem;
+    }
+    
+}
+@media (min-width:768px){
+    .randomInsult blockquote p{
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+    
 }

@@ -10,6 +10,11 @@ header{
   flex: 0 0 100%;
   text-align: center;
   color: white;
-  padding: 8rem 0;
+  padding: 6rem 2rem;
 }
 
+@media (min-width:520px){
+  header{
+    padding: 8rem 2rem;
+  }
+}

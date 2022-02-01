@@ -22,7 +22,7 @@ function App() {
       </section>
       <section className='container allInsults'>
         <header>
-          <h1>Get a random insult from Shakespeare when realod the page</h1>
+          <h1>Get a random insult from Shakespeare when you are reloading the page</h1>
         </header>
         {quotes.map((quote) => {
           return <Insult insult={ quote.insult } play={ quote.play } key={ quote.id}/>
