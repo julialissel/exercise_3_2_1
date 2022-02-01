@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 100vh;
+  font-family: 'MedievalSharp';
+}
+header{
+  flex: 0 0 100%;
+  text-align: center;
+  color: white;
+  padding: 8rem 0;
+}
+

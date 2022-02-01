@@ -1,0 +1,33 @@
+figure{
+    color: white;
+    flex: 0 0 80%;
+}
+blockquote p::before {
+    content: '\201C';
+}
+blockquote p::after {
+    content: '\201D';
+}
+.randomInsult blockquote p{
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+.randomInsult figure figcaption{
+    font-size: 2rem;
+}
+.allInsults{
+    background-color: rgb(26, 26, 243);
+}
+.allInsults figure{
+    margin-bottom: 2rem;
+    background-color: rgb(17, 17, 219);
+    padding: 2rem 2rem;
+}
+.allInsults blockquote p{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+.allInsults figure figcaption{
+    font-size: 1.5rem;
+}
